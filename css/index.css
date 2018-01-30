@@ -1,0 +1,19 @@
+body {
+  /*background-color:  #16A6B6;*/
+}
+.jumbotron {
+  /*background:url(../img/tahji.png) center no-repeat;*/
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: #16A6B6;
+}
+.start-button { /* スタートボタンの設定 */
+  border: solid 3px #fff;/*線*/
+  color: #fff;
+}
+.start-button:hover{
+background-color: #EE6557;
+color: #fff;
+}

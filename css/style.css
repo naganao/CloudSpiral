@@ -1,0 +1,111 @@
+@media screen and (min-width:500px){ /* 画面サイズ500px以上のとき適用 */
+  body { /* bodyの設定 */
+    /* 最適な指定を考え中 */
+    font-size: 18px;
+    /*background:url(../img/bg.png) center center no-repeat fixed;*/
+    background-color: #c6c6c6;
+    display: table;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  h1.title-text {
+    color:#fff;
+  }
+  .jumbotron {  /* 画面全体を覆う画像の設定 */
+    background:url(../img/bg.jpg) center center no-repeat fixed;
+    /*background-color: #fffafa;*/
+    display: table;
+    background-size: cover;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .main { /* index.htmlのタイトルのボックス */
+    /* 左右上下中央揃え */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .header img {
+    width: 30px;
+  }
+  #map { /* decided.htmlで使用 */
+    height: 40vh;  /* 最適な大きさは考え中 */
+    background-color: grey;
+    margin-top: 1vh;
+  }
+  .select-container { /* select.htmlで使用 コンテンツのブロック */
+    /* 左右上下中央揃え */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-height: 100%;
+  }
+  #question { /* 質問文 */
+    background-color: #16A6B6; /* Light Sea Green */
+    font-size: 20px;
+    color: #fff;
+    height: 20vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .detail-box {  /* 詳細ボックス */
+    background-color: gold;
+    color: #363947;
+    width: 90%;
+    margin-top: -1vh;
+    padding: 10px;
+    left: 5%;
+    min-height: 20vh;
+    /*margin-top: 1vh;*/
+  }
+  .ika-time{
+    display: flex;
+    flex-direction:column;
+    /*width: 100%;*/
+  }
+  .ika {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+  }
+  .progress { /* プログレスバー */
+    margin-top: 1vh;
+    width: 100%;
+  }
+  #prog-bar { /* プログレスバーの値 */
+    width: 100%;　/* 初めは100%の状態 */
+  }
+  .icon {
+    display:inline-block;
+  }
+  .icon_text {
+    display: inline;
+  }
+  #yes { /* yesボタン */
+    margin-top: 1vh;
+    background-color: #40AAEF;
+    color: #fff;
+  }
+  #no { /* noボタン */
+    margin-top: 1vh;
+    background-color: #EE6557;
+    color: #fff;
+  }
+}

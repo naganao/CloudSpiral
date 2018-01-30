@@ -1,0 +1,104 @@
+@media screen and (orientation: portrait){ /*スマホが縦向きのとき適用*/
+  html{font-size: 62.5%;}
+  body {
+    font-size: 1.4rem;
+    background-color: #fff;
+  }
+  h1.title-text {
+    color:#fff;
+  }
+  .popover-content p {
+    /*font-size: 12px;*/
+    font-size: 1.2rem;
+  }
+  .detail-box p {
+    /*font-size: 12px;*/
+    font-size: 1.2rem;
+  }
+  h1.test-text {
+    color:#fff;
+  }
+  .jumbotron {
+    /*background:url(../img/tahji.png) center no-repeat;*/
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  .main { /* index.htmlのタイトルのボックス */
+    /* 左右上下中央揃え */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .select-container { /* select.htmlで使用 コンテンツのブロック */
+    /* 左右上下中央揃え */
+    position: absolute;
+    width: 100%;
+    /*height: 100%;*/
+    display: flex;
+  }
+  /*:not(.contents) {
+  }
+  :not(.left-box) {
+    order: 2;
+  }*/
+  #question { /* 質問文 */
+    background-color: #16A6B6; /* Light Sea Green */
+    color: #fff;
+    min-height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+  #map { /* decided.htmlで使用 */
+    height: 40vh;  /* 最適な大きさは考え中 */
+    background-color: grey;
+    margin-top: 1vh;
+  }
+  /*:not(.right-box) {
+    order: 1;
+  }*/
+  .character {
+    display: flex;
+  }
+  .ika-time{
+    display: flex;
+    flex-direction:column;
+    /*width: 100%;*/
+  }
+  .ika {
+    margin-top: 1vh;
+  }
+  .popover { /* 吹き出し */
+    position:relative;
+    /*margin-left: 100px;*/
+    max-width:100%;
+  }
+  .detail-box {  /* 詳細ボックス */
+    background-color: gold;
+    color: #363947;
+    left: -10px;
+    margin-top:1vh;
+  }
+  .progress { /* プログレスバー */
+    margin-top:2vh;
+    width: 100%;
+  }
+  #prog-bar { /* プログレスバーの値 */
+    width: 100%;　/* 初めは100%の状態 */
+  }
+  #yes { /* yesボタン */
+    margin-top:1vh;
+    background-color: #40AAEF;
+    color: #fff;
+  }
+  #no { /* noボタン */
+    margin-top:1vh;
+    background-color: #EE6557;
+    color: #fff;
+  }
+}
