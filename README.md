@@ -1,3 +1,6 @@
+このリポジトリはクラウドスパイラルのチーム開発成果物を自分のリポジトリに移動したものです．
+移動元：https://github.com/Cloud-Spiral/pbl-2017-b4
+
 # MESHINATOR
 
 ## 概要
