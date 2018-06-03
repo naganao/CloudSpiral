@@ -6,10 +6,10 @@ var mcdresult = null; //マクドの検索結果
 var mcdistance = 0; //最も近いマクドへの距離
 var yujufudanDeg = 0;	//優柔不断度
 
-getPosition();
+//getPosition();
 //getNakanoshimaPosition();//中ノ島の座標
 //getManyMcPosition(); //範囲内に3つもマクドがある座標
-//getShinjukuPosition(); //大都会
+getShinjukuPosition(); //大都会
 
 function getNakanoshimaPosition(){
 	var latlng = {
@@ -111,7 +111,7 @@ function searchRestaurant(position){
 	var url = 'https://api.gnavi.co.jp/RestSearchAPI/20150630/?callback=?';
 //	パラメータの作成
 	params = {
-			keyid: 'c7099386a6277495ec9250cd4685ea6f',
+			keyid: '99c27b689be1e1c4f463e2bb64ee33a1',
 			format: 'json',
 			hit_per_page: 100,
 			latitude: position.lat,
