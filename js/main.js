@@ -6,10 +6,10 @@ var mcdresult = null; //マクドの検索結果
 var mcdistance = 0; //最も近いマクドへの距離
 var yujufudanDeg = 0;	//優柔不断度
 
-//getPosition();
+getPosition();
 //getNakanoshimaPosition();//中ノ島の座標
 //getManyMcPosition(); //範囲内に3つもマクドがある座標
-getShinjukuPosition(); //大都会
+//getShinjukuPosition(); //大都会
 
 function getNakanoshimaPosition(){
 	var latlng = {
