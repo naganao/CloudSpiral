@@ -85,7 +85,7 @@ function searchNearMcd(position) {
 	var url = 'https://api.gnavi.co.jp/RestSearchAPI/20150630/?callback=?';
 	//	パラメータの作成
 	params = {
-		keyid: 'c7099386a6277495ec9250cd4685ea6f',
+		keyid: '99c27b689be1e1c4f463e2bb64ee33a1',
 		format: 'json',
 		hit_per_page: 10,
 		latitude: position.lat,
@@ -143,7 +143,7 @@ function entershop(result){
 function meshinator(result){
 	mcdRecommend(result);
 	$('#question').text("マクドでよくない？");
-	
+
 	//まず適当に選んだ店を表示する
 	var rnd = Math.floor(Math.random() * result.rest.length); // 0~(飲食店の数-1)の範囲で乱数発生
 	var shoplist=[];//提示済の店のリスト
@@ -195,7 +195,7 @@ function meshinator(result){
                         updateYuju();
                     } else {
 						$('#question').text('これ以上' + short + 'の店は見つからないからマクドでよくない？');
-						endProcess();	
+						endProcess();
                     }
                 } else {
                     //[小業態]が決まっていないなら、[小業態]を聞きに行く
@@ -242,7 +242,7 @@ function meshinator(result){
                         atShopNode(rnd);
                     } else {
 						$('#question').text('これ以上' + large + 'の店は見つからないからマクドでよくない？');
-						endProcess();	
+						endProcess();
                     }
                 } else {
                     //[大業態]が決まっていないなら、[大業態]を聞きに行く
