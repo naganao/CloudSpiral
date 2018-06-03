@@ -27,6 +27,10 @@
 - Google Maps API
 - Google Geocoding API
 
+
+<a href="https://api.gnavi.co.jp/api/scope/" target="_blank">
+<img src="https://api.gnavi.co.jp/api/img/credit/api_265_65.gif" width="265" height="65" border="0" alt="グルメ情報検索サイト　ぐるなび"></a>
+
 ## 使用する言語
 - HTML
 - CSS
